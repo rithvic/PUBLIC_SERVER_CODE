@@ -1,0 +1,205 @@
+<div class="apiform">
+<form enctype="multipart/form-data">
+<div class="apiformurl">
+<div style="font-size: 21px;color:#333;">URL</div>
+<select class="form-item" id="sort" onchange="getInputFields(this)">
+    <option value = "" selected>Select</option>
+    <!--<option value="1">api/users/signup</option>
+    <option value="1">api/users/signupfacebook</option>
+    <option value="1">api/users/signin</option>
+    <option value="1">api/users/signinfacebook</option>
+    <option value="1">api/users/signout</option>
+    <option value="1">api/users/profile-update</option>
+    <option value="1">api/users/edit-profile</option>
+    <option value="1">api/users/profile-list</option>
+	 <option value="1">api/users/search-profile-list</option>
+	 <option value="1">api/users/last-search-profile-list</option>
+    <option value="1">api/users/phonecontact-list</option>
+    <option value="1">api/users/forget-password</option>
+    <option value="1">api/users/block-user</option>
+    <option value="1">api/users/blocked-userlist</option>
+    <option value="1">api/users/newblock-user</option>
+    <option value="1">api/users/unblock-user</option>
+    <option value="1">api/users/blocked-userlist</option>
+    <option value="1">api/users/delete-user</option>
+    <option value="1">api/users/change-password</option>
+    <option value="1">api/users/multiple-tablejoin</option>
+	<option value="1">api/users/update-latitude-longitude</option>
+	<option value="1">api/users/geo-fencing</option>
+    <option value="1">api/users-relationships/send-request</option>
+    <option value="1">api/users-relationships/users-list</option>
+    <option value="1">api/users-relationships/email-invite</option>
+    <option value="2">api/file/upload-server</option>
+    <option value="1">api/production/production-list</option>
+    <option value="1">api/production/video-viewers-hit</option>
+	 <option value="1">api/production/video-list</option>
+	 <option value="1">api/production/add-favorite</option>
+	 <option value="1">api/production/un-favorite</option>
+	 <option value="1">api/production/following-video-list</option>
+	 <option value="1">api/production/video-favorite</option>
+	 <option value="1">api/production/video-un-favorite</option>
+	 <option value="1">api/production/video-based-following</option>
+    <option value="1">api/production/addrate</option>
+    <option value="1">api/production/delete-rate</option>
+    <option value="1">api/production/addcommand</option>
+    <option value="1">api/production/getprofile</option>
+    <option value="1">api/production/public-profile-details</option>
+	
+    <option value="1">api/production/seperatevideo-list</option>
+	<option value="1">api/production/search-production-videos</option>
+	<option value="1">api/production/last-search-production-videos</option>
+	<option value="1">api/production/clear-search-history</option>
+	<option value="1">api/production/send-video-report</option>
+	<option value="1">api/production/public-videolist</option>
+	<option value="1">api/production/tag-video-search</option>
+	<option value="1">api/production/tag-description</option>
+	<option value="1">api/production/last-tag-description-search</option>
+	<option value="1">api/production/tag-search</option>
+	<option value="1">api/production/last-tag-search</option>
+	<option value="1">api/production/public-projects</option>
+	<option value="1">api/production/delete-pulic-videos</option>
+	<option value="1">api/production/final-individual-project</option>
+	<option value="1">api/production/block-video</option>
+	<option value="1">api/production/unblock-video</option>
+    <option value="1">api/inproduction/personalvideo-list</option>
+    <option value="1">api/users-relationships/follow-list</option>
+    <option value="1">api/users/forget-password</option>
+    <option value="1">api/follow/phone-follow-request</option>
+    <option value="1">api/follow/unfollowing-request</option>
+    <option value="1">api/follow/follower-list</option>
+    <option value="1">api/follow/follower-individual-list</option>
+    <option value="1">api/follow/topfollower-list</option>
+    <option value="1">api/follow/follower-notification</option>
+    <option value="1">api/crew/follower-notification</option>
+    <option value="1">api/crew/project-regiter</option>
+    <option value="1">api/crew/update-project-details</option>
+    <option value="1">api/crew/tag-description</option>
+    <option value="1">api/crew/last-tag-description-search</option>
+    <option value="1">api/crew/clear-tag-description-history</option>
+    <option value="1">api/crew/invited-details</option>
+    <option value="1">api/crew/owner-project</option>
+    <option value="1">api/crew/crew-videos</option>
+    <option value="1">api/crew/search-invitation-video</option>
+    <option value="1">api/crew/sendcrew-notification</option>
+    <option value="1">api/crew/update-crew-privacy</option>
+    <option value="1">api/crew/clipcount</option>
+    <option value="1">api/crew/public-projects</option>
+    <option value="1">api/crew/remove-resently-added</option>
+    <option value="1">api/crew/remove-crew-resently-added</option>
+	<option value="1">api/crew/project-crew-details</option>
+    <option value="1">api/crew/delete-project</option>
+   
+	
+    <option value="1">api/follow/join-exm</option>
+	
+    <option value="1">api/notification/notification-list</option>
+    <option value="1">api/notification/notification-details</option>
+    <option value="1">api/admin/signup-admin</option>
+    <option value="1">api/admin/login</option>
+    <option value="1">api/admin/admin-video</option>
+	<option value="1">api/admin/test-video</option>
+	<option value="1">api/production/final-videos</option>
+	<option value="1">api/users/decrypt-password</option>
+	<option value="1">api/users/delete-userin-table</option>
+	<option value="1">api/admin/test-array</option>
+	<option value="1">api/admin/data-view-list</option>
+	<option value="1">api/admin/new-array-list</option>
+	<option value="1">api/admin/get-array-details</option>
+	<option value="1">api/admin/image-upload</option>
+	<option value="1">api/admin/profile-image-details</option>
+	<option value="1">api/admin/set-image-user</option>
+	<option value="1">api/admin/new-user-insertdata</option>
+	<option value="1">api/admin/new-fbid-update</option>
+	<option value="1">api/admin/user-datas</option>
+	<option value="1">api/admin/new-image-details</option>
+	<option value="1">api/admin/get-data</option>
+	<option value="1">api/admin/data-new-user</option>
+	<option value="1">api/admin/encrypt-password</option>
+	<option value="1">api/admin/deta-get-array</option>
+	<option value="1">api/admin/signup-user</option>
+	<option value="1">api/admin/test-insert</option>
+	<option value="1">api/admin/profile-picture-update</option>
+	<option value="1">api/admin/user-data-update</option>
+	<option value="1">api/admin/hide-data</option>
+	<option value="1">api/admin/get-arrayuser-data</option>
+	<option value="1">api/admin/image-set-user</option>
+	<option value="1">api/admin/new-data-update</option>
+	<option value="1">api/admin/signup</option>
+	<option value="1">api/admin/signup-page</option>
+	<option value="1">api/admin/signin-page</option>-->
+	<option value="1">api/showroom/get-showroom-cars</option>
+	<option value="1">api/showroom/car-details</option>
+	<option value="1">api/showroom/dealer-list</option>
+	<option value="1">api/showroom/dealer-details</option>
+	<option value="1">api/showroom/car-filter</option>
+	<option value="1">api/showroom/dealer-make-cars</option>
+	<option value="1">api/showroom/showroom-website</option>
+	<option value="1">api/showroom/dealer-carlist</option>
+	<option value="1">api/showroom/network-project</option>
+	<option value="1">api/dealership/dealer-signup</option>
+	
+	
+	
+	
+	
+</select>
+</div>
+<div class="apiformmethod">
+<div style="font-size: 21px;color:#333;">Method</div>
+<input style="margin: 15px 5px 0px 24px;" type="radio" name="method" value="GET" id="GET" disabled>
+<span id="getlabel" style="font-size: 21px;font-weight:bold;color:#333;opacity:.1;">GET</span></br>
+<input style="margin: 15px 5px 0px 24px;" type="radio" name="method" value="POST" id="POST" disabled>
+<span id="postlabel" style="font-size: 21px;font-weight:bold;color:#333;opacity:.1;">POST</span>
+</div></br>
+<div class="apiformparam">
+<div style="font-size: 21px;color:#333;">Specify Input Parameters</div>
+<div id="fields" style="display: none;width:100%;">
+<table style="width:100%;" id="fieldsdata"><!--<tr><td>
+<div id="fieldsleft"></div></td><td> 
+<div id="fieldsright">
+</div></td></tr>--></table>
+<progress id="progressBar" value="0" max="100" style="width:300px;display:none;"></progress>
+<p id="loaded_n_total" style="display:none;"></p>
+<div id="token" style="display: none;">24462a501a5aa6ca239d1ade0fc90c9c</div>
+</div>
+<input style="display:none" onclick="addFields()" type="button" id="addmore" value="Add More Fields">
+<input style="display:none" onclick="addImageFields()" type="button" id="addimages" value="Add Image Fields">
+</div>
+<div class="apiformquery">
+<input type="button" onclick="makeQuery()" id="viewresponse" value="View Response">
+<div style="font-size: 21px;color:#333;">Query</div>
+<div class="queryform">
+       
+        <label class="queryform-input" id="url-query" style="width:100%;">
+            <span class="queryform-input_text" id="base-url"><?php echo SERVER_URL;?></span>
+            <!--<span class="queryform-input_text" id="base-video-url" style="display:none">http://carzillaapp.com/Pilotapp_Test/PilotappVideo/public/</span>-->
+            <span class="queryform-input_field-holder">
+                <input name="query" id="query" value="" class="queryform-input_field" tabindex="1" style="width:50%;">
+            </span>
+        </label>
+</div>
+<div id="demo"></div>
+</div>
+</form>
+<div class="apiformresponse">
+<div style="font-size: 21px;color:#333;">Response</div>
+
+<div id="wait" style="display:none;margin: -24% 0% -23% 10%;">
+<img src='<?php echo $this->baseUrl()?>/public/images/loader-bar.gif'/>
+</div>
+<pre class="headers"><code id=Header></code></pre>
+<pre class="body-response"><code id=Response></code></pre>
+</div>
+</div>
+<script type="text/javascript">
+function testbodycontent(status,responsemethod,host,contentType,contentLength,link,response)
+{
+// document.getElementById("wait").style.display="none";
+document.getElementById("Response").innerHTML="";
+var headers = "Host: "+host+"</br>Link: "+link+"</br>Status: "+status+"</br>Method: "+responsemethod+"</br>"+
+			"Content-Type: "+contentType+"</br>Content-Length: "+contentLength;
+
+$('#Header').html(headers);
+$('#Response').html(library.json.prettyPrint(JSON.parse(response)));
+}
+</script>
